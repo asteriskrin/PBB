@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PBB">
         <activity
-            android:name=".JSONParserActivity"
+            android:name=".jsonparser.JSONParserActivity"
             android:exported="true" />
         <activity
             android:name=".xmlparser.XMLParserActivity"

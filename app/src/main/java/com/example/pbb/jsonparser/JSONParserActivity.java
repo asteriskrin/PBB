@@ -1,4 +1,4 @@
-package com.example.pbb;
+package com.example.pbb.jsonparser;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -10,6 +10,7 @@ import android.widget.ListView;
 import android.widget.SimpleAdapter;
 import android.widget.Toast;
 
+import com.example.pbb.R;
 import com.example.pbb.utils.HTTPHandler;
 
 import org.json.JSONArray;
