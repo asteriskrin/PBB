@@ -10,6 +10,7 @@ import android.widget.Button;
 
 import com.example.pbb.jsonparser.JSONParserActivity;
 import com.example.pbb.xmlparser.XMLParserActivity;
+import com.example.pbb.jsonparserbmkg.JSONParserBMKGActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -23,6 +24,9 @@ public class MainActivity extends AppCompatActivity {
 
         Button btnGoToJSONParser = findViewById(R.id.btnGoToJSONParser);
         btnGoToJSONParser.setOnClickListener(buttonDo);
+
+        Button btnGoToXMLParserBMKG = findViewById(R.id.btnGoToXMLParserBMKG);
+        btnGoToXMLParserBMKG.setOnClickListener(buttonDo);
     }
 
     @SuppressLint("NonConstantResourceId")
@@ -30,6 +34,7 @@ public class MainActivity extends AppCompatActivity {
         switch (view.getId()) {
             case R.id.btnGoToXMLParser: goToXMLParser(); break;
             case R.id.btnGoToJSONParser: goToJSONParser(); break;
+            case R.id.btnGoToXMLParserBMKG: goToXMLParserBMKG(); break;
         }
     };
 
@@ -40,6 +45,11 @@ public class MainActivity extends AppCompatActivity {
 
     private void goToJSONParser() {
         Intent intent = new Intent(this, JSONParserActivity.class);
+        startActivity(intent);
+    }
+
+    private void goToXMLParserBMKG() {
+        Intent intent = new Intent(this, JSONParserBMKGActivity.class);
         startActivity(intent);
     }
 }

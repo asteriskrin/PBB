@@ -4,4 +4,6 @@
     <string name="json_parser">JSON Parser</string>
     <string name="data_cuaca_dari_bmkg">Data Cuaca dari BMKG</string>
     <string name="terakhir_diupdate_pada_01_01_2021_00_00_00">Terakhir diupdate pada 01/01/2021 00:00:00</string>
+    <string name="xml_parser_bmkg">XML Parser BMKG</string>
+    <string name="data_gempa_dirasakan">Data gempa dirasakan</string>
 </resources>

@@ -16,4 +16,10 @@
         android:text="@string/json_parser"
         android:id="@+id/btnGoToJSONParser"
         android:layout_gravity="center" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/xml_parser_bmkg"
+        android:id="@+id/btnGoToXMLParserBMKG"
+        android:layout_gravity="center" />
 </LinearLayout>
