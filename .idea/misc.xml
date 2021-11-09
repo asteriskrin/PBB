@@ -3,8 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/aeroy/Documents/Android/PBB/app/src/main/res/layout/activity_jsonparser.xml" value="0.2015625" />
         <entry key="..\:/Users/aeroy/Documents/Android/PBB/app/src/main/res/layout/activity_main.xml" value="0.21965579710144928" />
         <entry key="..\:/Users/aeroy/Documents/Android/PBB/app/src/main/res/layout/activity_xmlparser.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/aeroy/Documents/Android/PBB/app/src/main/res/layout/json_parser_list_item.xml" value="0.2015625" />
       </map>
     </option>
   </component>
